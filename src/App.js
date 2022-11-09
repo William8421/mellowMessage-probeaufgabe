@@ -81,7 +81,7 @@ function App() {
           return (
             <div key={idx} className="doctorsInfo">
               <div className="namePrefix">
-                {item.prefix}: {item.firstname} {item.lastname}
+                {item.prefix} {item.firstname} {item.lastname}
               </div>
               <div>phone number: {item.phone}</div>
               <div>special field: {item.special_field}</div>
