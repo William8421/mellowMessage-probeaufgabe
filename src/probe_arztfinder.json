@@ -1,0 +1,530 @@
+[
+{
+    "type": "header",
+    "version": "4.9.7",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "probe_arztfinder"
+},
+{
+    "type": "table",
+    "name": "doctor",
+    "database": "probe_arztfinder",
+    "data": 
+[
+{
+    "id": "1",
+    "prefix": "Dr.",
+    "firstname": "Ralf",
+    "lastname": "Wangemann",
+    "phone": "0341 2537187",
+    "special_field": "Orthop\u00e4de"
+},
+{
+    "id": "2",
+    "prefix": "Dr.  ",
+    "firstname": "Frauke",
+    "lastname": "Michelmann",
+    "phone": "0341 2739754",
+    "special_field": "Internistin"
+},
+{
+    "id": "3",
+    "prefix": "Dr.  ",
+    "firstname": "Maik",
+    "lastname": "Ronny",
+    "phone": "0341 7393654",
+    "special_field": "Neurologe"
+},
+{
+    "id": "4",
+    "prefix": "Dr.  ",
+    "firstname": "Schantale",
+    "lastname": "Mandy",
+    "phone": "0341 7283946",
+    "special_field": "Haut\u00e4rztin"
+},
+{
+    "id": "5",
+    "prefix": "Pr. Dr.",
+    "firstname": "Klaus",
+    "lastname": "Dietersen",
+    "phone": "0341 3748564",
+    "special_field": "Proktologe"
+},
+{
+    "id": "6",
+    "prefix": "Pr. Dr.",
+    "firstname": "Ludwig",
+    "lastname": "M\u00fcller",
+    "phone": "0341 3648590",
+    "special_field": "Urologe"
+},
+{
+    "id": "7",
+    "prefix": "Pr. Dr.",
+    "firstname": "Jana",
+    "lastname": "Ziegelmann",
+    "phone": "0341 46282912",
+    "special_field": "HNO"
+},
+{
+    "id": "8",
+    "prefix": "Pr. Dr. Dr.",
+    "firstname": "Stefanie",
+    "lastname": "Franke",
+    "phone": "0341 36628820",
+    "special_field": "Frauen\u00e4rztin"
+},
+{
+    "id": "9",
+    "prefix": "Frau",
+    "firstname": "Gabriela Estefania",
+    "lastname": "Sabbatini",
+    "phone": "0341 7284957",
+    "special_field": "Internistin"
+},
+{
+    "id": "10",
+    "prefix": "Herr",
+    "firstname": "Klaus",
+    "lastname": "Kleber",
+    "phone": "0341 8264789",
+    "special_field": "Internistin"
+},
+{
+    "id": "11",
+    "prefix": "Dr.  ",
+    "firstname": "Rolf",
+    "lastname": "Schmidt",
+    "phone": "0341 367489",
+    "special_field": "Kardiologe"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "doctor_symptom_relation",
+    "database": "probe_arztfinder",
+    "data": 
+[
+{
+    "id": "1",
+    "symptom": "1",
+    "doctor": "3"
+},
+{
+    "id": "2",
+    "symptom": "1",
+    "doctor": "2"
+},
+{
+    "id": "3",
+    "symptom": "1",
+    "doctor": "9"
+},
+{
+    "id": "4",
+    "symptom": "1",
+    "doctor": "10"
+},
+{
+    "id": "5",
+    "symptom": "2",
+    "doctor": "2"
+},
+{
+    "id": "6",
+    "symptom": "2",
+    "doctor": "7"
+},
+{
+    "id": "7",
+    "symptom": "2",
+    "doctor": "9"
+},
+{
+    "id": "8",
+    "symptom": "2",
+    "doctor": "10"
+},
+{
+    "id": "9",
+    "symptom": "3",
+    "doctor": "7"
+},
+{
+    "id": "10",
+    "symptom": "4",
+    "doctor": "2"
+},
+{
+    "id": "11",
+    "symptom": "4",
+    "doctor": "10"
+},
+{
+    "id": "12",
+    "symptom": "4",
+    "doctor": "9"
+},
+{
+    "id": "13",
+    "symptom": "4",
+    "doctor": "8"
+},
+{
+    "id": "14",
+    "symptom": "4",
+    "doctor": "6"
+},
+{
+    "id": "15",
+    "symptom": "5",
+    "doctor": "8"
+},
+{
+    "id": "16",
+    "symptom": "5",
+    "doctor": "11"
+},
+{
+    "id": "17",
+    "symptom": "6",
+    "doctor": "8"
+},
+{
+    "id": "18",
+    "symptom": "7",
+    "doctor": "1"
+},
+{
+    "id": "19",
+    "symptom": "7",
+    "doctor": "3"
+},
+{
+    "id": "20",
+    "symptom": "8",
+    "doctor": "6"
+},
+{
+    "id": "21",
+    "symptom": "8",
+    "doctor": "8"
+},
+{
+    "id": "22",
+    "symptom": "9",
+    "doctor": "4"
+},
+{
+    "id": "23",
+    "symptom": "9",
+    "doctor": "6"
+},
+{
+    "id": "24",
+    "symptom": "9",
+    "doctor": "8"
+},
+{
+    "id": "25",
+    "symptom": "10",
+    "doctor": "1"
+},
+{
+    "id": "26",
+    "symptom": "10",
+    "doctor": "5"
+},
+{
+    "id": "27",
+    "symptom": "11",
+    "doctor": "8"
+},
+{
+    "id": "28",
+    "symptom": "12",
+    "doctor": "2"
+},
+{
+    "id": "29",
+    "symptom": "12",
+    "doctor": "9"
+},
+{
+    "id": "30",
+    "symptom": "12",
+    "doctor": "10"
+},
+{
+    "id": "31",
+    "symptom": "13",
+    "doctor": "2"
+},
+{
+    "id": "32",
+    "symptom": "13",
+    "doctor": "7"
+},
+{
+    "id": "33",
+    "symptom": "13",
+    "doctor": "9"
+},
+{
+    "id": "34",
+    "symptom": "13",
+    "doctor": "10"
+},
+{
+    "id": "35",
+    "symptom": "14",
+    "doctor": "2"
+},
+{
+    "id": "36",
+    "symptom": "14",
+    "doctor": "3"
+},
+{
+    "id": "37",
+    "symptom": "14",
+    "doctor": "4"
+},
+{
+    "id": "38",
+    "symptom": "14",
+    "doctor": "7"
+},
+{
+    "id": "39",
+    "symptom": "14",
+    "doctor": "9"
+},
+{
+    "id": "40",
+    "symptom": "14",
+    "doctor": "10"
+},
+{
+    "id": "41",
+    "symptom": "17",
+    "doctor": "11"
+},
+{
+    "id": "42",
+    "symptom": "18",
+    "doctor": "11"
+},
+{
+    "id": "43",
+    "symptom": "19",
+    "doctor": "1"
+},
+{
+    "id": "44",
+    "symptom": "19",
+    "doctor": "2"
+},
+{
+    "id": "45",
+    "symptom": "19",
+    "doctor": "3"
+},
+{
+    "id": "46",
+    "symptom": "19",
+    "doctor": "4"
+},
+{
+    "id": "47",
+    "symptom": "19",
+    "doctor": "5"
+},
+{
+    "id": "48",
+    "symptom": "19",
+    "doctor": "6"
+},
+{
+    "id": "49",
+    "symptom": "19",
+    "doctor": "7"
+},
+{
+    "id": "50",
+    "symptom": "19",
+    "doctor": "8"
+},
+{
+    "id": "51",
+    "symptom": "19",
+    "doctor": "9"
+},
+{
+    "id": "52",
+    "symptom": "19",
+    "doctor": "10"
+},
+{
+    "id": "53",
+    "symptom": "19",
+    "doctor": "11"
+},
+{
+    "id": "54",
+    "symptom": "20",
+    "doctor": "6"
+},
+{
+    "id": "55",
+    "symptom": "20",
+    "doctor": "8"
+},
+{
+    "id": "56",
+    "symptom": "21",
+    "doctor": "1"
+},
+{
+    "id": "57",
+    "symptom": "21",
+    "doctor": "3"
+},
+{
+    "id": "58",
+    "symptom": "21",
+    "doctor": "7"
+},
+{
+    "id": "59",
+    "symptom": "22",
+    "doctor": "1"
+},
+{
+    "id": "60",
+    "symptom": "22",
+    "doctor": "3"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "symptom",
+    "database": "probe_arztfinder",
+    "data": 
+[
+{
+    "id": "1",
+    "symptom": "Kopfschmerzen"
+},
+{
+    "id": "2",
+    "symptom": "Halsschmerzen"
+},
+{
+    "id": "3",
+    "symptom": "Ohrenschmerzen"
+},
+{
+    "id": "4",
+    "symptom": "Bauchschmerzen"
+},
+{
+    "id": "5",
+    "symptom": "Brustschmerzen"
+},
+{
+    "id": "6",
+    "symptom": "Menstruaktionsbeschwerden"
+},
+{
+    "id": "7",
+    "symptom": "Nackenschmerzen"
+},
+{
+    "id": "8",
+    "symptom": "Nierensschmerzen"
+},
+{
+    "id": "9",
+    "symptom": "Krebsvorsorge"
+},
+{
+    "id": "10",
+    "symptom": "Plattfu\u00df"
+},
+{
+    "id": "11",
+    "symptom": "Schwangerschaftsberatung"
+},
+{
+    "id": "12",
+    "symptom": "Fieber"
+},
+{
+    "id": "13",
+    "symptom": "Husten"
+},
+{
+    "id": "14",
+    "symptom": "Ausschlag"
+},
+{
+    "id": "15",
+    "symptom": "Pickel"
+},
+{
+    "id": "16",
+    "symptom": "Durchfall"
+},
+{
+    "id": "17",
+    "symptom": "Herzrasen"
+},
+{
+    "id": "18",
+    "symptom": "Kammerflimmern"
+},
+{
+    "id": "19",
+    "symptom": "Schmerzen"
+},
+{
+    "id": "20",
+    "symptom": "Urinieren"
+},
+{
+    "id": "21",
+    "symptom": "Taubheitsgef\u00fchl"
+},
+{
+    "id": "22",
+    "symptom": "Finger"
+},
+{
+    "id": "23",
+    "symptom": "TEST I like this website"
+},
+{
+    "id": "24",
+    "symptom": "I like this website"
+},
+{
+    "id": "25",
+    "symptom": "I like this website too"
+},
+{
+    "id": "26",
+    "symptom": "I like this website"
+}
+]
+
+}
+]

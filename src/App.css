@@ -1,0 +1,21 @@
+.App {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  text-align: center;
+}
+.symptomsContainer,
+.doctorsInfoContainer {
+  width: 40%;
+  background-color: rgb(230, 227, 223);
+  border-radius: 16px;
+}
+.doctorsInfo {
+  margin: 5%;
+  background-color: rgb(17, 63, 149);
+  color: white;
+  padding: 5%;
+  border-radius: 16px;
+}
